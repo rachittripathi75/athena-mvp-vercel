@@ -1,0 +1,42 @@
+[
+  {
+    "id": "V-001",
+    "name": "Acme Property Services",
+    "invoiceCount": 145,
+    "errorRate": 0.02,
+    "commonIssues": ["None"],
+    "hygiene": "Good"
+  },
+  {
+    "id": "V-002",
+    "name": "City Utilities",
+    "invoiceCount": 89,
+    "errorRate": 0.15,
+    "commonIssues": ["Service addressing", "Tax miscalc"],
+    "hygiene": "Warning"
+  },
+  {
+    "id": "V-003",
+    "name": "Sparky's Electrical",
+    "invoiceCount": 34,
+    "errorRate": 0.08,
+    "commonIssues": ["Illegible handwriting"],
+    "hygiene": "Fair"
+  },
+  {
+    "id": "V-004",
+    "name": "Green Thumb Landscaping",
+    "invoiceCount": 56,
+    "errorRate": 0.01,
+    "commonIssues": ["None"],
+    "hygiene": "Good"
+  },
+  {
+    "id": "V-005",
+    "name": "Unknown Vendor LLC",
+    "invoiceCount": 12,
+    "errorRate": 0.45,
+    "commonIssues": ["Missing EIN", "Unclear remit"],
+    "hygiene": "Bad"
+  }
+]

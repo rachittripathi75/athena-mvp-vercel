@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "type": "classification",
+    "description": "AI successfully classified invoice from Acme Property",
+    "timestamp": "2024-03-23T10:30:00Z",
+    "status": "success"
+  },
+  {
+    "id": 2,
+    "type": "exception",
+    "description": "Low confidence score for City Utilities invoice INV-002",
+    "timestamp": "2024-03-23T09:45:00Z",
+    "status": "warning"
+  },
+  {
+    "id": 3,
+    "type": "classification",
+    "description": "AI matched GL code for Green Thumb Landscaping",
+    "timestamp": "2024-03-23T08:15:00Z",
+    "status": "success"
+  },
+  {
+    "id": 4,
+    "type": "exception",
+    "description": "Missing PDF attachment detected for Vendor V-005",
+    "timestamp": "2024-03-22T16:20:00Z",
+    "status": "error"
+  }
+]

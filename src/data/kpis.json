@@ -1,0 +1,13 @@
+{
+  "totalInvoices": 1284,
+  "autoClassifiedPercent": 82.5,
+  "glMatchAccuracy": 94.2,
+  "timeSavedHours": 156,
+  "accuracyTrend": [
+    { "date": "2024-03-01", "predicted": 88, "actual": 85 },
+    { "date": "2024-03-05", "predicted": 90, "actual": 88 },
+    { "date": "2024-03-10", "predicted": 92, "actual": 91 },
+    { "date": "2024-03-15", "predicted": 94, "actual": 93 },
+    { "date": "2024-03-20", "predicted": 95, "actual": 94.2 }
+  ]
+}

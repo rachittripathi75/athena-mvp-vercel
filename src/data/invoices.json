@@ -1,0 +1,94 @@
+[
+  {
+    "id": "INV-001",
+    "vendor": "Acme Property Services",
+    "amount": 1250.00,
+    "date": "2024-03-20",
+    "status": "Processed",
+    "confidence": 0.98,
+    "predictions": {
+      "property": "Greenwood Estates",
+      "glCode": "6010-00 (Maintenance)",
+      "route": "Property Manager"
+    },
+    "actual": {
+      "property": "Greenwood Estates",
+      "glCode": "6010-00 (Maintenance)",
+      "route": "Property Manager"
+    }
+  },
+  {
+    "id": "INV-002",
+    "vendor": "City Utilities",
+    "amount": 435.20,
+    "date": "2024-03-21",
+    "status": "Exception",
+    "confidence": 0.65,
+    "reason": "Low confidence match",
+    "predictions": {
+      "property": "Riverside Lofts",
+      "glCode": "6020-00 (Utilities)",
+      "route": "Facility Lead"
+    },
+    "actual": {
+      "property": "Riverside Lofts",
+      "glCode": "6030-00 (Water & Sewer)",
+      "route": "Regional Manager"
+    }
+  },
+  {
+    "id": "INV-003",
+    "vendor": "Sparky's Electrical",
+    "amount": 890.00,
+    "date": "2024-03-22",
+    "status": "Low Confidence",
+    "confidence": 0.72,
+    "predictions": {
+      "property": "Sunset Heights",
+      "glCode": "6010-00 (Maintenance)",
+      "route": "Property Manager"
+    },
+    "actual": {
+      "property": "Sunset Heights",
+      "glCode": "6010-05 (Electrical Repairs)",
+      "route": "Property Manager"
+    }
+  },
+  {
+    "id": "INV-004",
+    "vendor": "Green Thumb Landscaping",
+    "amount": 2100.00,
+    "date": "2024-03-22",
+    "status": "Processed",
+    "confidence": 0.95,
+    "predictions": {
+      "property": "Greenwood Estates",
+      "glCode": "6040-00 (Landscaping)",
+      "route": "Property Manager"
+    },
+    "actual": {
+      "property": "Greenwood Estates",
+      "glCode": "6040-00 (Landscaping)",
+      "route": "Property Manager"
+    }
+  },
+  {
+    "id": "INV-005",
+    "vendor": "Unknown Vendor LLC",
+    "amount": 150.00,
+    "date": "2024-03-23",
+    "status": "Exception",
+    "confidence": 0.42,
+    "reason": "Unclear property",
+    "predictions": {
+      "property": "Unknown",
+      "glCode": "Pending",
+      "route": "Triage"
+    },
+    "actual": {
+      "property": "Pine Ridge",
+      "glCode": "6050-00 (Admin)",
+      "route": "Property Manager"
+    }
+  }
+]
