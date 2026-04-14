@@ -1,13 +1,13 @@
 import React from 'react'
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Progress } from "@/components/ui/progress"
 import { Badge } from "@/components/ui/badge"
 import { 
-  Users, TrendingUp, AlertTriangle, CheckCircle, 
+  Users, TrendingUp, CheckCircle, 
   Search, SlidersHorizontal, MoreHorizontal 
 } from 'lucide-react'
 import vendorData from '@/data/vendors.json'
-import { cn } from '@/lib/utils'
+
 
 const HygieneBadge = ({ level }: { level: string }) => {
   switch (level) {

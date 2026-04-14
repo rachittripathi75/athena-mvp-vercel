@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { 
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend
 } from 'recharts'
@@ -138,7 +138,7 @@ export const Dashboard: React.FC = () => {
           </CardHeader>
           <CardContent className="px-6 pt-4 pb-6">
             <div className="relative border-l border-slate-200 ml-4 space-y-8">
-              {activityData.map((activity, index) => (
+              {activityData.map((activity) => (
                 <div key={activity.id} className="relative flex gap-4 items-start pl-6">
                   {/* Icon Badge acting as bullet */}
                   <div className={cn(
